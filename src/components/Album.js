@@ -24,7 +24,7 @@ export const Album = () => {
 
   return (
     <>
-      <section >
+      <section>
         <header>
           <h1>{albumName}</h1>
           <p>Go to the <Link to="/">Home page</Link></p>
