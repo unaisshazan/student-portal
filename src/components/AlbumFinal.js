@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { app } from "../base";
-import { NewAlbumForm } from "./NewAlbumForm";
-import { Switch, Route, Link } from "react-router-dom";
+
+import { Switch, Route } from "react-router-dom";
 import { Album } from "./Album";
 import { Home } from "./HomeAlbum"
 
