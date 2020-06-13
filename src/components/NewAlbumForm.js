@@ -27,6 +27,7 @@ export const NewAlbumForm = () => {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="sm">
+      <h3>Enter Album Name</h3>
       <input value={albumName} onChange={onAlbumNameChange} type="text" />
       <button onClick={onAlbumCreate}>Create album</button>
       </Container>
